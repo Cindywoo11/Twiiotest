@@ -42,7 +42,7 @@ jobs:
 
 # Whatsapp Push Notifier Output :house_with_garden:
 ### Get Ready to have Whatsapp Notification
-1. Make changes in your Github reponsitory and commit the changes.  
+1. Make changes in your Github repository and commit the changes.  
 2. From your "Actions" you can see the workflow running and Twilio will send notfication to your Whatsapp when a change is made. 
 
 <img src="Apps Photo.png" width="200">

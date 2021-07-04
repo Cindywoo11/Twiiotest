@@ -1,6 +1,6 @@
 # Twiliotest 
 
-My DevOps project journey! With the initial many ideas of Github pages of creating CV to lifestyle to Docker to  so and so and so 
+My DevOps project journey! With the initial many ideas of Github pages of creating CV to lifestyle to Docker to so and so and so. I have finally landed myself on Twiilio cos it's so fun to explore! I would have hope to have stumble upon this way earlier so I can have more time to experiment it! And here we go some contributors guide to Twilio! 
 
 <h1 align="center">Whatsapp Push Notify Action 🚀</h1>
 <p>

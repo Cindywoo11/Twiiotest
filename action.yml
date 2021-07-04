@@ -1,12 +1,13 @@
-
 name: "Push notification on Whatsapp"
-description: "Triggers a Private Message to the My Whatsapps when a code is push, pull request or fork, whatever in the master branch"
-author: "CindyWoo"
+description: "Will send a Whatsapp message should a push event occur"
+author: "Cindy Woo"
 branding:
-icon: message-square
-color: blue
-	
+  icon: message-square
+  color: blue
+
+
 runs:
-using: "docker"
-image: "Dockerfile”
+  using: "docker"
+  image: "Dockerfile"
+
 

@@ -1,7 +1,7 @@
 # Twiliotest 
 
 My DevOps project journey!!
-With the initial ideas of Github pages to creating CVs to lifestyle blogs to Docker Containers to so and so on.. 
+<b>With the initial ideas of Github pages to creating CVs to lifestyle blogs to Docker Containers to so and so on..</br>
 I have finally landed myself on Twilio cos it's so fun to explore! 
 I would have hope to stumble upon this way earlier so I can have more time to experiment it! And here we go to some contributing guides to Twilio!!
 

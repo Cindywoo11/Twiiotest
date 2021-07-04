@@ -15,3 +15,4 @@ jobs:
           account_sid: ${{ secrets.account_sid }}
           auth_token: ${{ secrets.auth_token }}
           to_whatsapp_no: ${{ secrets.to_whatsapp_no }}
+          uses: Cindywoo11/Twiliotest@main

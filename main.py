@@ -8,7 +8,7 @@ auth_token = os.environ['auth_token']
 client = Client(account_sid, auth_token)
 
 message = client.messages.create(
-                              body='Amended something on cindywoo11/twiliotest repository',
+                              body='Amended something on cindywoo11/twiliotest repository to kylalimza github',
                               from_='whatsapp:+14155238886',
                               to='whatsapp:'+os.environ['to_whatsapp_no']
                           )

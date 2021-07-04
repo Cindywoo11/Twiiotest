@@ -2,8 +2,6 @@
 
 My DevOps project journey! With the initial many ideas of Github pages of creating CV to lifestyle to Docker to so and so and so. I have finally landed myself on Twiilio cos it's so fun to explore! I would have hope to have stumble upon this way earlier so I can have more time to experiment it! And here we go some contributors guide to Twilio! 
 
-TEST TEST 
-
 <h1 align="center">Whatsapp Push Notify Action 🚀</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
@@ -47,13 +45,7 @@ jobs:
 
 # Whatsapp Push Notifier Output
 
-![whatsapp-push-notify-screenshot](https://github.com/ishween/whatsapp-push-notify-action/blob/master/whatsapp-push-notify.png)
-
-## Author
-
-:woman_technologist: **Ishween Kaur**
-
-* Github: [@ishween](https://github.com/ishween)
+![](Apps%20Photo.png =100x20)
 
 ## Show your support
 

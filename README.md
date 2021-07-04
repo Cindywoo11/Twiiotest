@@ -5,18 +5,11 @@ With the initial ideas of Github pages to creating CVs to lifestyle blogs to Doc
 I have finally landed myself on Twilio cos it's so fun to explore!<br>I would have hope to stumble upon this way earlier so I can have more time to experiment it!<br> 
 And here we go to some contributing guides to Twilio!!<br>
 
-<h1 align="center">Whatsapp Push Notify Action 🚀</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/ishween/whatsapp-push-notify-action/blob/master/LICENSE" target="_blank">
-    <img alt="License: GNU GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg" />
-  </a>
-</p>
-
-> A github action which sends a Whatsapp message when code is pushed to a repository.
+<h1 align="center">Setting Up Whatsapp Push Notification🚀</h1>
+A github action which sends a Whatsapp notification when a change is pushed to a repository.
 
 ### Getting Started!
-1. Create account in twilio [here](https://www.twilio.com/).  
+1. Create an account in twilio [here](https://www.twilio.com/).  
 2. From your twilio dashboard fetch Account Sid and Auth Token.  
 3. To encrypt them, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` and give it's value.  
 4. Create a ```.github/workflows/Whatsapps.yml```.  
@@ -40,8 +33,8 @@ jobs:
         run: echo 'Start!'
 ```
 
-# Whatsapp Push Notifier Output :house_with_garden:
-### Get Ready to have Whatsapp Notification
+# Whatsapp Push Notification Output :house_with_garden:
+### All Ready To Receive A Whatsapp Notification!
 1. Make changes in your Github repository and commit the changes.  
 2. From your "Actions" you can see the workflow running and Twilio will send notfication to your Whatsapp when a change is made. 
 

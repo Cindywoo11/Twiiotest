@@ -1,6 +1,6 @@
 # Twiliotest 
 
-My DevOps project journey! With the initial many ideas of Github pages of creating CV to lifestyle to Docker to  
+My DevOps project journey! With the initial many ideas of Github pages of creating CV to lifestyle to Docker to  so and so and so 
 
 <h1 align="center">Whatsapp Push Notify Action 🚀</h1>
 <p>

@@ -49,8 +49,7 @@ jobs:
 
 ## 📝 Reference
 
-https://github.com/ishween/whatsapp-push-notify-action.git
-
+https://github.com/kaviadigdarshan/whatsapp-actions
 ***
 
 

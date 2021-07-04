@@ -1,9 +1,9 @@
 name: When one of the following events occur in the master branch, a message is sent to the Whatsapps.
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest

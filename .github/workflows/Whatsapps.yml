@@ -8,13 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       - name: whatsapp-notify
-   
-        env:
-          account_sid: ${{ secrets.ACCOUNT_SID }}
-          auth_token: ${{ secrets.AUTH_TOKEN }}
-          to_whatsapp_no: ${{ secrets.TO_WHATSAPP_NO }}
-        uses: Cindywoo11/Twiliotest@main
-      - name : Run
         run: echo 'Start!'
+        env:
+          account_sid: ${{ secrets.account_sid }}
+          auth_token: ${{ secrets.auth_token }}
+          to_whatsapp_no: ${{ secrets.to_whatsapp_no }}

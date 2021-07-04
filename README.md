@@ -15,9 +15,7 @@ And here we go to some contributing guides to Twilio!!<br>
 
 > A github action which sends a Whatsapp message when code is pushed to a repository.
 
-### :house_with_garden: [Homepage]
-
-### Usage
+### Getting Started!
 1. Create account in twilio [here](https://www.twilio.com/).  
 2. From your twilio dashboard fetch Account Sid and Auth Token.  
 3. To encrypt them, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` and give it's value.  
@@ -42,7 +40,10 @@ jobs:
         run: echo 'Start!'
 ```
 
-# Whatsapp Push Notifier Output
+# Whatsapp Push Notifier Output :house_with_garden:
+### Get Ready to have Whatsapp Notification
+1. Make changes in your Github reponsitory and commit the changes.  
+2. From your "Actions" you can see the workflow running and Twilio will send notfication to your Whatsapp when a change is made. 
 
 <img src="Apps Photo.png" width="200">
 

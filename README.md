@@ -24,10 +24,8 @@ And here we go to some contributing guides to Twilio!!<br>
 4. Create a ```.github/workflows/Whatsapps.yml```.  
 5. Add the following properties to ```Whatsapps.yml``` file   
 
-```name: When one of the following events occur in the master branch, a message is sent to the Whatsapps.
-on:
-  push:
-    branches: [ main ]
+```name: When one of the following events occur in the master branch, a message is sent to the Whatsapp.
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -18,43 +18,36 @@ My DevOps project journey! With the initial many ideas of Github pages of creati
 1. Create account in twilio [here](https://www.twilio.com/).  
 2. From your twilio dashboard fetch Account Sid and Auth Token.  
 3. To encrypt them, create new secrets in your repository named ```account_sid, auth_token, to_whatsapp_no``` and give it's value.  
-4. Create a ```.github/workflows/whatsapp-push-notify-action.yml```.  
-5. Add the following properties to ```whatsapp-push-notify-action.yml``` file   
+4. Create a ```.github/workflows/Whatsapps.yml```.  
+5. Add the following properties to ```Whatsapps.yml``` file   
 
-```name: When a push occurs in the master branch, a private message is sent on the Whatsapp.
-on: [push]
+```name: When one of the following events occur in the master branch, a message is sent to the Whatsapps.
+on:
+  push:
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: whatsapp-notify
-        id: whatsapp-notify
+   
         env:
-          account_sid: ${{ secrets.account_sid }}
-          auth_token: ${{ secrets.auth_token }}
-          to_whatsapp_no: ${{ secrets.to_whatsapp_no }}
-
-
-        uses: ishween/whatsapp-push-notify-action@master
-      
+          account_sid: ${{ secrets.ACCOUNT_SID }}
+          auth_token: ${{ secrets.AUTH_TOKEN }}
+          to_whatsapp_no: ${{ secrets.TO_WHATSAPP_NO }}
+        uses: Cindywoo11/Twiliotest@main
       - name : Run
-        run: |
-          echo 'Start!'
+        run: echo 'Start!'
 ```
 
 # Whatsapp Push Notifier Output
 
-![](Apps%20Photo.png =100x20)
+<img src="Apps Photo.png" width="200">
 
-## Show your support
+## 📝 Reference
 
-Give a :star2: if this project helped you!
-
-## 📝 License
-
-Copyright © 2020 [Ishween Kaur](https://github.com/ishween).<br/>
-This project is [GNU GPLv3](https://github.com/ishween/whatsapp-push-notify-action/blob/master/LICENSE) licensed.
+https://github.com/ishween/whatsapp-push-notify-action.git
 
 ***
 
